@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "examplediscs",
+  "version": "${version}",
+  "name": "ExampleDiscs",
+  "description": "An example mod for adding custom Music Discs with Architectury and Fabric Loom.",
+  "authors": [
+    "EmpressAutumn",
+    "Pokestir (music)"
+  ],
+  "contact": {
+    "homepage": "https://atom596.com/",
+    "sources": "https://github.com/EmpressAutumn/ExampleDiscs"
+  },
+  "license": "CC0 1.0 Universal",
+  "icon": "assets/examplediscs/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.atom596.examplediscs.fabric.ExampleDiscsFabric"
+    ]
+  },
+  "depends": {
+    "fabric": "*",
+    "minecraft": ">=1.20.1",
+    "architectury": ">=9.1.12"
+  }
+}

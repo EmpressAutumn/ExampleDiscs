@@ -1,0 +1,10 @@
+{
+    "music_disc.geosenge": {
+        "sounds": [
+            {
+                "name": "examplediscs:records/geosenge",
+                "stream": true
+            }
+        ]
+    }
+}

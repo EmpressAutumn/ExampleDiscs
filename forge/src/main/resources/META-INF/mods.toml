@@ -1,0 +1,35 @@
+modLoader = "javafml"
+loaderVersion = "[47,)"
+#issueTrackerURL = ""
+license = "CC0 1.0 Universal"
+
+[[mods]]
+modId = "examplediscs"
+version = "${version}"
+displayName = "ExampleDiscs"
+authors = "EmpressAutumn"
+description = '''
+An example mod for adding custom Music Discs with Architectury and Fabric Loom.
+'''
+#logoFile = ""
+
+[[dependencies.examplediscs]]
+modId = "forge"
+mandatory = true
+versionRange = "[47,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.examplediscs]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.20.1,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.examplediscs]]
+modId = "architectury"
+mandatory = true
+versionRange = "[9.1.12,)"
+ordering = "AFTER"
+side = "BOTH"
